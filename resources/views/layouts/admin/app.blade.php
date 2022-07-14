@@ -38,13 +38,13 @@
     <div class="page-container">
 
         <!-- sidebar menu area start -->
-        @include('sidebar')
+        @include('layouts.admin.sidebar')
         <!-- sidebar menu area end -->
 
         <!-- main content area start -->
         <div class="main-content">
 
-            @include('header')
+            @include('layouts.admin.header')
 
             @yield('content')
 
@@ -52,7 +52,7 @@
         <!-- main content area end -->
 
         <!-- footer area start-->
-        @include('footer')
+        @include('layouts.admin.footer')
         <!-- footer area end-->
     </div>
     <!-- page container area end -->
